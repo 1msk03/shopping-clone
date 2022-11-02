@@ -1,0 +1,22 @@
+.home__container {
+  width: 100vw;
+}
+.home__container-first {
+}
+.home__container-first > img {
+  margin: 0px 5%;
+  width: 90%;
+  height: 700px;
+  object-fit: cover;
+}
+.home__container-second {
+  display: flex;
+  justify-content: space-between;
+}
+.home__container-second > img {
+  object-fit: cover;
+  width: 50%;
+}
+.home__container-second > div {
+  width: 50%;
+}
